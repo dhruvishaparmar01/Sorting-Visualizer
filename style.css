@@ -1,0 +1,37 @@
+#chart-container {
+    display: flex;
+    align-items: flex-end; 
+    justify-content: center;
+    height: 400px;   
+    width: 50%;   
+    margin: auto;
+    padding: 10px;
+    gap: 10px;
+    border-bottom: 3px solid #333;
+    border-left: 3px solid #333;  
+
+}
+.bar{
+    flex: 1;
+    background-color: #163832;
+    transition: height 0.5s ease-in-out;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 10px;
+    color: #daf1de;;
+    font-size: 14px;
+}
+
+.controls button{
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #021e1a;
+    color: white;
+}
+
+.controls button:hover {
+            background-color: #155e53;
+}
